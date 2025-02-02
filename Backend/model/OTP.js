@@ -17,6 +17,6 @@ const otpSchema = new mongoose.Schema({
     }
 })
 
-module.exports= mongoose.Schema('OTP',otpSchema);
+module.exports= mongoose.model('OTP',otpSchema);
 
 // 1.26.50
